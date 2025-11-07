@@ -46,3 +46,17 @@ body{
 
 
 }
+.topo{
+    border-bottom: 1px solid var(--borda);
+}
+.topo .container{
+    display: flex;/*ativando*/
+    align-items: center;
+    justify-content: space-around;/*mas centralizado , o bet deixou cada um no seu canto,muito distante*/
+    padding: .75rem 1rem;/*o rem e melhor que o pixel,pois ele acompanha a tela*/
+
+
+}
+.caixa{
+    
+}
