@@ -58,5 +58,67 @@ body{
 
 }
 .caixa{
-    
+    border: 1px solid var(--borda);
+    background-color: var(--caixa);
+    border: .5rem;
+    border-radius: .5rem;
+    padding: 2rem 1rem ;
+    margin: 1.5rem auto;
+    max-width: 80%;/*limitar*/
+
+}
+h1{
+    margin-bottom: .5rem;
+    font-size: 1.6rem;
+
+}
+p{
+    margin: 1rem 0;/*em baixo e em cima*/
+
+
+}
+form{
+    display: grid;/*os elementos ficam um abaixo do outro*/
+    gap: .5rem;/*afastar um do outro*/
+
+
+}
+label{
+    font-weight: 600;
+}
+input{
+    padding: .7rem .9rem;
+    border: 1px solid var(--borda);
+    border-radius: .5rem;
+    background-color: var(--bg);
+    color: var(--texto);
+
+
+}
+.btn{
+    padding: .6rem .9rem;/*desta maneira da um espaçamento tambem da fonte*/
+    border: 1px solid var(--borda);
+    background-color: var(--bg);
+    color: var(--texto);
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;/*so para afastar um pouquinho*/
+    max-width: 250px;/*tamanho do botao*/
+
+}
+.btn .primario{
+
+    margin-top: 1rem;
+    background-color: var(--acao);
+    color: white;
+
+}
+.rodape{
+    border-top: 1px solid var(--borda);
+    height: 65px;
+    display: flex;/*ativando o flex*/
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    margin-top: auto;
 }
