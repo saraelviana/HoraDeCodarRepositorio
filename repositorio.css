@@ -40,7 +40,7 @@ body{
 
     /*vamos trabalhar o tema*/
     background-color: var(--bg);
-    counter-reset: var(--texto);/*cor de todos os elementos*/
+    color: var(--texto);/*cor de todos os elementos*/
 
 
 
@@ -64,6 +64,7 @@ body{
     border-radius: .5rem;
     padding: 2rem 1rem ;
     margin: 1.5rem auto;
+    
     max-width: 80%;/*limitar*/
 
 }
@@ -106,7 +107,7 @@ input{
     max-width: 250px;/*tamanho do botao*/
 
 }
-.btn .primario{
+.btn.primario{
 
     margin-top: 1rem;
     background-color: var(--acao);
